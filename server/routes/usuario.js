@@ -81,9 +81,9 @@ app.post('/usuario',[verificaToken, verificaAdminRole], function (req, res) {
 })
 
 
-app.get('/', function (req, res) {
-    res.json('Hello World');
-});
+// app.get('/', function (req, res) {
+//     res.json('Hello World');
+// });
 
 
 app.post('/usuario', function (req, res) {
